@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: blinkylight
+  host: blinkylight
+  disk_quota: 1024M
+  services:
+  - blinkylight-cloudantNoSQLDB
+  - blinkylight-iotf-service
